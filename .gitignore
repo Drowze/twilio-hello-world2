@@ -23,3 +23,6 @@ yarn-debug.log*
 
 # Ignore database config
 /config/database.yml
+
+# Ignore rspec examples file
+/spec/examples.txt

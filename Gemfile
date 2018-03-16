@@ -11,7 +11,18 @@ gem 'rails', '~> 5.1.5'
 gem 'webpacker'
 
 group :development, :test do
+  gem 'factory_bot'
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
   gem 'rubocop'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
