@@ -9,6 +9,7 @@ gem 'bcrypt'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.5'
+gem 'twilio-ruby'
 gem 'webpacker'
 
 group :development, :test do
@@ -27,5 +28,5 @@ group :test do
 end
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
+  gem 'dotenv-rails'
 end

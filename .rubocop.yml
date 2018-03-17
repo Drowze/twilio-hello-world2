@@ -41,3 +41,6 @@ Metrics/LineLength:
   Max: 100
   Include:
     - 'app/**/*'
+
+Naming/UncommunicativeMethodParamName:
+  AllowedNames: ['to']
